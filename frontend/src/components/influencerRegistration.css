@@ -1,0 +1,91 @@
+.divbody {
+    font-family: 'Arial', sans-serif;
+    background-image: url('bgregin.webp'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: absolute;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 60%;
+    max-width: 800px;
+    margin: 2% auto;
+    background: #fff; /* White container for contrast */
+    padding: 25px; /* Slightly less padding for a tighter look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow for subtlety */
+    border-radius: 10px; /* Rounded corners for a modern feel */
+}
+
+h2 {
+    color: #324d67; /* Dark blue for a touch of professionalism */
+    font-size: 26px; /* Slightly reduced font size for the heading */
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 35px; /* Adjusted bottom margin for heading */
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Reduced margin between inputs for a compact form */
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #324d67; /* Label color matched with heading */
+}
+
+.input-group input,
+.input-group select {
+    padding: 8px 12px; /* Reduced padding for smaller inputs */
+    border-radius: 4px;
+    border: 1px solid #d1d1d1; /* Lighter border for inputs */
+    font-size: 14px; /* Smaller font size for inputs */
+    font-weight: 300;
+    background: #f8f8f8; /* Very light background for inputs */
+}
+
+/* Focus styles */
+.input-group input:focus,
+.input-group select:focus {
+    outline: none;
+    border-color: #8aa4af; /* Subtle blue for focused input border */
+    box-shadow: 0 0 0 2px rgba(138, 164, 175, 0.2); /* Soft glow effect on focus */
+}
+
+/* Flexbox styles for inline fields */
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Gap between columns for spacing */
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex: 1; /* Flexible grow for responsive widths */
+}
+
+/* Submit button with a gradient */
+.submit-button {
+    padding: 10px 15px; /* Smaller padding for a more refined button */
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(45deg, #4b79a1, #283e51); /* Gradient for visual interest */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background-image: linear-gradient(45deg, #283e51, #4b79a1); 
+}

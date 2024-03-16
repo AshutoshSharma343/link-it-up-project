@@ -1,0 +1,67 @@
+.bground {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+}
+  
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Use the full width of the viewport */
+    max-width: 50%; /* A max-width of 50% of the viewport width */
+    min-width: 600px; /* Minimum width to ensure form is significant */
+    padding: 60px; /* Increased padding for aesthetic spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff; /* Ensure the background is white */
+}
+  
+.login-section {
+    width: 100%; /* Use the full width of the container */
+    padding: 60px; /* Increased padding for aesthetic spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.login-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 2rem;
+}
+  
+.input-container {
+    width: 100%; /* Ensure input takes full width of the form */
+    margin-bottom: 15px;
+}
+  
+input[type=email], input[type=password] {
+    width: 100%; /* Input takes full width of its parent */
+    padding: 15px; /* Increased padding for a better look */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.login-btn {
+    background-color: #008cba;
+    color: white;
+    padding: 15px 25px; /* Increased padding for a bigger button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Button takes full width of its parent */
+    font-size: 18px; /* Increased font size for better visibility */
+    margin-top: 20px; /* Add margin top for spacing */
+}
+  
+.login-btn:hover {
+    background-color: #005f73;
+}
